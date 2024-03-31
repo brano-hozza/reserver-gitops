@@ -6,9 +6,7 @@ spec:
   replicas: 2
   selector:
     matchLabels:
-        pod: reserver-ufe-label    # tento riadok je len označenie štítku
-                                    # key-value pair pod=ambualnce ufe
-                                    # určený pre výber podov s rovnakým štítkom
+        pod: reserver-ufe-label
   template:                    # šablóna pre vytvorenie replík podov
     metadata:
       labels:
