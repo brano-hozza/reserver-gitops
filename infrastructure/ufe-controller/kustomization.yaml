@@ -3,3 +3,8 @@ kind: Kustomization
 
 resources:
 - https://github.com/milung/ufe-controller//configs/k8s/kustomize
+
+namespace: was-hospital # chceme tieto objekty umiestniť do `was-hospital` namespace
+
+commonLabels:
+  app.kubernetes.io/component: ufe-controller
