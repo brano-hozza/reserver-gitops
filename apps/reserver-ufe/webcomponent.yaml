@@ -3,9 +3,9 @@ kind: WebComponent
 metadata:
   name: reserver-ufe
 spec:
-  module-uri: http://reserver-ufe.was-hospital/build/reserver-ufe.esm.js
+  module-uri: http://reserver-ufe.wac-hospital/build/reserver-ufe.esm.js
                      # module web komponentu pre tento mikroFE
-                     # - umiestnený v namespace was-hospital
+                     # - umiestnený v namespace wac-hospital
   navigation:
     - element: reserver-app    # element, ktorý bude vložený na stránku
                                     # pri navigácii na zoznam čakajúcich
