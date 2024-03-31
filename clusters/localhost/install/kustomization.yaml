@@ -10,3 +10,6 @@ commonLabels:
 
 resources:
 - ../../../apps/reserver-ufe
+
+components:
+ - ../../../components/version-developers
